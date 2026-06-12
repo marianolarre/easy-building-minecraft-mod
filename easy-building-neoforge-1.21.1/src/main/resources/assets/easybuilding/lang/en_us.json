@@ -1,0 +1,13 @@
+{
+  "itemGroup.easybuilding": "Example Mod Tab",
+  "block.easybuilding.example_block": "Example Block",
+  "item.easybuilding.example_item": "Example Item",
+
+  "easybuilding.configuration.title": "Easy Building Configs",
+  "easybuilding.configuration.section.easybuilding.common.toml": "Easy Building Configs",
+  "easybuilding.configuration.section.easybuilding.common.toml.title": "Easy Building Configs",
+  "easybuilding.configuration.items": "Item List",
+  "easybuilding.configuration.logDirtBlock": "Log Dirt Block",
+  "easybuilding.configuration.magicNumberIntroduction": "Magic Number Text",
+  "easybuilding.configuration.magicNumber": "Magic Number"
+}
