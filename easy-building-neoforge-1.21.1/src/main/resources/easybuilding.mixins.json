@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "marum.easybuilding.mixin",
+  "package": "marum.easybuilding.Mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ClientPlayerInteractionManagerMixin"
