@@ -136,6 +136,7 @@ public class EasyBuildingClient implements ClientModInitializer {
 			int green = 255;
 			int blue = 255;
 			BlockPos projectedBlock = getProjectedBlock();
+			if (projectedBlock == null) return;
 			// If out of range, turn red
 			if (!isInRange(projectedBlock)) {
 				green = 0;
