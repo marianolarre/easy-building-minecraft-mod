@@ -1,3 +1,27 @@
 /easy-building-fabric-1.20.1/build
 /easy-building-fabric-1.20.1/run
 /easy-building-fabric-1.20.1/bin
+
+/easy-building-fabric-26.1.2/.gradle
+/easy-building-fabric-26.1.2/build
+/easy-building-fabric-26.1.2/run
+/easy-building-fabric-26.1.2/bin
+
+/easy-building-fabric-26.2/.gradle
+/easy-building-fabric-26.2/build
+/easy-building-fabric-26.2/run
+/easy-building-fabric-26.2/bin
+
+# General Gradle & build artifacts
+.gradle/
+**/build/
+**/run/
+**/bin/
+**/.gradle/
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
