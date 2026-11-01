@@ -1,6 +1,7 @@
 package marum.easybuilding.client;
 import javax.swing.text.JTextComponent.KeyBinding;
 
+import org.apache.commons.lang3.ObjectUtils;
 import org.joml.Matrix3f;
 import org.joml.Matrix4f;
 
@@ -145,6 +146,10 @@ public class EasyBuildingClient implements ClientModInitializer {
 					int green = 255;
 					int blue = 255;
 					BlockPos projectedBlock = getProjectedBlock();
+					if(projectedBlock == null){
+						return;
+					}
+
 					// If out of range, turn red
 					if (!isInRange(projectedBlock)) {
 						green = 0;
@@ -168,7 +173,8 @@ public class EasyBuildingClient implements ClientModInitializer {
 							client.getCameraEntity().getEyePosition(tickDelta),
 							modifiedPlanePoint,
 							PlaneMode.selectedFace,
-							red, green, blue);				}
+							red, green, blue);
+				}
 			);
         });
 
